@@ -49,7 +49,7 @@ app.listen(port,() => {
 })
 
 
-//  ok - http://localhost:3000/saludar/:HumbertoLeal
+//  ok - http://localhost:3000/saludar/:HumbertoLealGuzman
 router.get('/saludar/:nombre', (req, res) => {
     var nombre = req.params.nombre; 
     res.send("Hello " + nombre);
